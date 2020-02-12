@@ -121,6 +121,7 @@ h2{
     height: 60vh;
     grid-gap: 5px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 0 10% 0 10%;
 }
 
 .food-image{

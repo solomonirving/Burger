@@ -320,3 +320,157 @@ h4{
         padding: 0;
     }
 }
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+     .section-1, .section-2{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+    }
+    .left{
+        height: 900px;
+        width: 100%;
+        padding: 0 0 0 0;
+    }
+    .right{
+        height: 900px;
+        width: 100%;
+    }
+    .left-2{
+        height: 800px;
+        width: 100%;
+    }
+    .right-2{
+        height: 800px;
+        width: 100%;
+        margin: 60% 0 0 0;
+    }
+    .section-3{
+        margin: 30% 0 0 0;
+    }
+    .section-3-container{
+        height: 400px;
+        padding: 0 5% 0 5%;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .logo-img{
+        max-width: 200px;
+        padding-top: 3%;
+    }
+    .address{
+        padding: 0 0 0 0;
+        line-height: 1.5rem;
+        color: rgb(63, 59, 59);
+    }
+    .phone-number{
+        line-height: 1.5rem;
+        color: rgb(45, 45, 189);
+        font-weight: bold;
+        padding-bottom: 3%;
+    }
+    .menu{
+        padding: 0 0 0 0;
+    }
+    .menu-list{
+        padding: 0 0 0 0;
+        margin-top: 0;
+        text-align: center;
+    }
+    .menu-list-2{
+        padding: 0 0 0 0;
+        margin: 0;
+        text-align: center;
+    }
+    .new{
+        padding-left: 10;
+        font-size: 1.2em;
+        margin-left: 100px;
+    }
+    h1{
+        margin: 1em 0em 1em 4em;
+        color: white;
+        font-size: 1.8em;
+    }
+    .burger{
+        padding: 0;
+    }
+
+    h2{
+        padding: 0 0 0 12%;
+        font-size: 1.4em;
+    }
+    .paragraph{
+        display: flex;
+        flex-direction: column;
+        line-height: 1.7;
+        color: #525e66;
+        font-size: 1.1rem;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    .middle-img{
+        display: none;
+        width: 100vw;
+        height: 100px;
+    }
+    .learn{
+        font-size: 1.2em;
+        text-align: center;
+        padding: 2rem 0rem 2rem 4rem;
+        text-transform: uppercase;
+    }
+    .menu-2{
+        font-size: 20px;
+        text-align: center;
+        padding: 10% 0 0 0;
+    }
+    hr{
+        margin-top: 5%;
+    }
+    .side-1,  .side-2, .side-3, .side-4, .side-5{ 
+        padding-top: 40%;
+    }
+    .food-title{
+        font-size: 17px;
+        font-weight: bolder;
+        text-align: justify;
+    }
+    .food-list{
+        text-align: justify;
+    }
+    .food-title-sides{
+        text-align: justify;
+        padding-left: 6%;
+        font-size: 17px;
+        font-weight: bolder;
+    }
+    .food-description{
+        padding: 0;
+        margin: 0;
+    }
+    .three-1{
+        max-width: 70px;
+    }
+    .burger-2{
+        max-width: 80px;
+        padding-top: 50%;
+    }
+    .dessert{
+        max-width: 90px;
+        padding-top: 10%;
+    }
+    h4{
+        bottom: 0;
+    }
+    ul{
+        padding: 0;
+    }
+}

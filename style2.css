@@ -99,8 +99,7 @@ h1{
     line-height: 1.7;
     color: #525e66;
     font-size: 1.1rem;
-    margin-bottom: 3rem;
-    padding: 0rem 2rem 2rem 2rem;
+    margin: 0 2rem 3rem 2rem;
 }
 h2{
     text-align: center;
@@ -257,7 +256,7 @@ h4{
         color: #525e66;
         font-size: 1.1rem;
         margin-bottom: 3rem;
-        padding: 0rem 4rem 2rem 4rem;
+        text-align: center;
     }
     .middle-img{
         display: none;
